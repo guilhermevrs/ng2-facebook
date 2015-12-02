@@ -1,0 +1,33 @@
+{
+  "name": "ng2-facebook",
+  "version": "0.0.0",
+  "description": "Angular2 Facebook library",
+  "main": "ng2-facebook.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermevrs/ng2-facebook.git"
+  },
+  "keywords": [
+    "angular2",
+    "facebook",
+    "ng2",
+    "fb"
+  ],
+  "author": "Guilherme Schwade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilhermevrs/ng2-facebook/issues"
+  },
+  "homepage": "https://github.com/guilhermevrs/ng2-facebook#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.47"
+  },
+  "typings": "./ng2-facebook.d.ts",
+  "devDependencies": {
+    "typescript": "^1.7.3"
+  }
+}
