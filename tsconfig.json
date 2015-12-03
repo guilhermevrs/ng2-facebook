@@ -1,15 +1,15 @@
 {
     "compilerOptions": {
-        "noImplicitAny": true,
-        "module": "commonjs",
-        "target": "ES5",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "sourceMap": true,
-        "declaration": true
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "sourceMap": false
     },
     "files": [
-        "ng2-facebook.ts"
+        "node_modules/typescript/lib/lib.es6.d.ts"
     ],
     "exclude": [
         "node_modules"
