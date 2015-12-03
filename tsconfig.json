@@ -9,6 +9,7 @@
         "sourceMap": false
     },
     "files": [
+        "ng2-facebook.ts",
         "node_modules/typescript/lib/lib.es6.d.ts"
     ],
     "exclude": [
