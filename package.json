@@ -1,6 +1,6 @@
 {
   "name": "ng2-facebook",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Angular2 Facebook library",
   "main": "ng2-facebook.js",
   "scripts": {
