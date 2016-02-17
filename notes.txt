@@ -1,0 +1,9 @@
+npm version [version | major | minor | patch]
+  -major : not backward compatible
+  -minor: backward compatible
+  -patch: no new features
+npm adduser (to add npm user)
+npm publish (to publish the package)
+
+to use it
+import {FBConnector} from 'ng2-facebook/ng2-facebook';

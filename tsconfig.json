@@ -7,14 +7,14 @@
     "moduleResolution": "node",
     "removeComments": true,
     "sourceMap": true,
-    "outDir": "/lib",
+    "outDir": "lib",
     "declaration": true
   },
   "files": [
-    "ng2-facebook.ts",
-    "node_modules/typescript/lib/lib.es6.d.ts"
+    "ng2-facebook.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "example"
   ]
 }
