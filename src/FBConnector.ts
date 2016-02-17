@@ -1,9 +1,9 @@
-import {OnInit} from 'angular2/angular2';
+import {OnInit} from 'angular2/core';
 
 export class FBConnector implements OnInit{
 
   ngOnInit(){
-    var js,
+    /*var js,
     id = 'facebook-jssdk',
     ref = document.getElementsByTagName('script')[0];
 
@@ -16,7 +16,7 @@ export class FBConnector implements OnInit{
     js.async = true;
     js.src = "//connect.facebook.net/en_US/sdk.js";
 
-    ref.parentNode.insertBefore(js, ref);
+    ref.parentNode.insertBefore(js, ref);*/
   }
 
 }

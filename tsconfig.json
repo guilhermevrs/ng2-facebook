@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "removeComments": true,
-    "sourceMap": true,
-    "outDir": "lib",
-    "declaration": true
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "moduleResolution": "node"
   },
   "files": [
     "ng2-facebook.ts"
   ],
   "exclude": [
-    "node_modules",
-    "example"
+    "example",
+    "node_modules"
   ]
 }

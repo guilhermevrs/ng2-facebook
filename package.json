@@ -4,7 +4,7 @@
   "description": "Angular2 Facebook library",
   "main": "ng2-facebook.js",
   "scripts": {
-    "build": "rm -rf lib && tsc -p src",
+    "build": "tsc",
     "prepublish": "build"
   },
   "repository": {
@@ -32,7 +32,7 @@
     "rxjs": "5.0.0-beta.0",
     "zone.js": "0.5.14"
   },
-  "typings": "./ng2-facebook.d.ts",
+  "typings": "./lib/ng2-facebook.d.ts",
   "devDependencies": {
     "typescript": "^1.7.3"
   },

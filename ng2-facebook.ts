@@ -1,7 +1,3 @@
-import {FBConnector} from  './src/FBConnector'
+///<reference path="node_modules/angular2/typings/browser.d.ts"/>
 
-export * from './src/FBConnector'
-
-export default {
-  FBConnector
-}
+export {FBConnector} from  './src/FBConnector';
