@@ -1,13 +1,22 @@
 export class FBConnector {
 
-  constructor(){
-    console.log('hus')
+  constructor(appID:string) {
+    if (!window.fbAsyncInit) {
+      console.log('define');
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: appID,
+          xfbml: true,
+          version: 'v2.5'
+        });
+      };
+    }
   }
 
-  initFB(){
+  initFB() {
     var js,
-    id = 'facebook-jssdk',
-    ref = document.getElementsByTagName('script')[0];
+      id = 'facebook-jssdk',
+      ref = document.getElementsByTagName('script')[0];
 
     if (document.getElementById(id)) {
       return;
