@@ -7,7 +7,7 @@ import {FBConnector} from 'ng2-facebook/ng2-facebook';
 })
 export class AppComponent implements OnInit{
   ngOnInit(){
-    console.log('hid')
-    console.log(FBConnector)
+    var fbCon: FBConnector = new FBConnector;
+    fbCon.initFB();
   }
 }
