@@ -4,20 +4,29 @@
   <title>Angular 2 QuickStart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
-  <script src="/node_modules/es6-shim/es6-shim.min.js"></script>
-  <script src="/node_modules/systemjs/dist/system.src.js"></script>
-  <script>
-    //configure system loader
-    System.config({
-      defaultJSExtensions: true
-    });
-    System.import('app/main')
+  <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        packages: {
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('app/main')
             .then(null, console.error.bind(console));
-  </script>
-  <script src="/node_modules/rxjs/bundles/Rx.js"></script>
-  <script src="/node_modules/angular2/bundles/angular2.min.js"></script>
-  <script src="lib/ng2-facebook.js"></script>
+    </script>
 
 </head>
 

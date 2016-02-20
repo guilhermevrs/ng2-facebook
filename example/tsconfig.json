@@ -9,6 +9,9 @@
     "removeComments": false,
     "noImplicitAny": false
   },
+  "files":[
+    "app/main.ts"
+  ],
   "exclude": [
     "node_modules",
     "typings/main",
