@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import {FBConnector} from 'ng2-facebook/ng2-facebook';
 
 @Component({
     selector: 'my-app',
